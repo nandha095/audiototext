@@ -9,6 +9,7 @@ import whisper
 # Load Whisper model
 model = whisper.load_model("base")  # You can use "tiny", "base", "small", "medium", or "large"
 
+#app initialization
 app = FastAPI()
 
 UPLOAD_FOLDER = "audio_files"
