@@ -1,0 +1,43 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment
+myenv/
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode or IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Audio files
+audio_files/
+
+# Model cache and whisper files
+.whisper/
+
+# Uploaded files
+uploads/
+
+# Transcription output files (optional, if not needed in repo)
+*.json
+*.txt
+
+# FastAPI static files (if any generated)
+static/
+
+# Jupyter notebooks checkpoint
+.ipynb_checkpoints/
+
+# dotenv files (if using API keys or secrets)
+.env
